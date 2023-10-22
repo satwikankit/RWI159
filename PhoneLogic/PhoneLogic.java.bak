@@ -1,0 +1,24 @@
+class PhoneLogic
+	{
+		public void ring(String)
+			{
+			System.out.println("Ringing....");
+			
+		}
+		public void vibrating(String)
+			{
+			System.out.println("Vibrating....");
+			
+			
+		}
+	
+	public static void  main(String[] args) 
+	{
+		PhoneLogic samsung = new samsung();
+		
+	}
+	PhoneLogic samsung = new PhoneLogic();
+	 ring();
+	 virating();
+	}
+	
