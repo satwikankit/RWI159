@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+}
+
+
+.column1{
+    background-color:rgba(34, 34, 34, 0.80);
+ 
+    opacity: .8;
+    float: left;
+    width: 48%;
+  height: 150px; 
+  margin-right: 10px;
+  margin-left: 10px;
+  
+
+  
+}
+.column2{
+   
+    background-color: rgb(51, 49, 49) ;
+    opacity: .8;
+    float: right;
+    width: 48%;
+  height: 150px;  
+}
+.column3{
+    background-color: rgb(51, 49, 49) ;
+    opacity: .8;
+    float: left;
+    width: 48%;
+  height: 150px;  
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.column4{
+    background-color: rgb(51, 49, 49) ;
+    opacity: .8;
+    float: right;
+    width: 48%;
+  height: 150px; 
+margin-top: 20px;
+}
+
+
+
+.icon{
+text-align: center;
+color: red;
+
+} 
+.para{
+   color: white;
+}
+#ok{
+    color: white;
+    text-align: center;
+}
+h2{
+    text-align: left;
+   
+    margin-left: 20px; 
+
+}
