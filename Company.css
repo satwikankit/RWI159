@@ -1,0 +1,408 @@
+*{
+    margin: 0xp;
+    padding: 0px;
+    background-color: black;
+    font-family: Poppins;
+}
+
+#main{
+    color: white;
+   
+}
+
+#words{
+    text-align: center;
+}
+
+#cc{
+    font-size: x-large;
+    font-weight: 500;
+}
+
+#details ul li{
+    list-style-type: none; 
+    height: 150px;
+    width: 300px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+   
+
+}
+
+#details ul li i{
+   margin-top: 20%;
+}
+
+#details ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+
+#map{
+    margin-top: 4%;
+    margin-left: 8%;
+}
+
+#kk{
+    display: flex;
+    justify-content: space-between;
+}
+
+#ff {
+    margin-right: 15%;
+    margin-top: 4%;
+    border: 2px solid;
+    height: 150px;
+    width: 30%;
+    
+}
+
+#ff form label{
+    color: whitesmoke;
+    font-size:large;
+    font-size: 400;
+}
+
+#ff form input{
+    background-color: whitesmoke;
+    width: 60%;
+    height: 25px;
+    margin-top: 3%;
+    border-radius: 5px;
+}
+
+#ff form{
+    text-align: center;
+    width: 100%;
+}
+
+#message{
+    position: relative;
+    background-color: whitesmoke;
+    margin-top: 3%;
+    border-radius: 10px;
+}
+
+#nn{
+    display: flex;
+   justify-content: space-between;
+}
+
+#nn input{
+    margin-left: 3%;
+    height: 10%;
+    /* height: 8%; */
+
+}
+
+#name{
+    padding-left: 3%;
+    align-items: center;
+    
+
+}
+
+#email{
+    padding-left: 3%;
+    align-items: center;
+
+}
+
+#mm{
+    padding-top: 2%;
+    
+}
+
+#message{
+    padding-left: 3%;
+   
+}
+
+#subject{
+    padding-left: 3%;
+    align-items: center;
+}
+
+#mm a button{
+    background-color: rgb(52, 72, 157);
+    color: black;
+    font-size: 14px;
+    width: 200px;
+    height: 38px;
+    text-align: left;
+    padding-left: 3%;
+   font-weight: 600;
+   color: white;
+   
+}
+
+#mm a button:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+   
+}
+#btn{
+    float: left;
+}
+
+#fak{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    color: white;
+    border-radius: 10px;
+}
+#fak img {
+    position: relative;
+    height: 30px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    width: 45px;
+}
+
+#opt ul {
+    display: flex;
+    list-style-type: none;
+    padding-right: 15%;
+   
+ 
+  
+}
+#opt{
+    width: 40%;
+    text-decoration: none;
+    color: white;
+
+}
+
+#opt a{
+    width: 40%;
+    text-decoration: none;
+    color: white;
+    justify-content: space-evenly;
+}
+
+#opt ul li a{
+    justify-content: space-evenly; 
+    width: 80%;
+}
+#opt ul li:hover{
+    cursor: pointer;
+    color: rgba(255, 166, 0, 0.804);
+}
+#symbol ul li{
+    
+    list-style-type: none;
+    align-items: center;
+
+    
+}
+#hamburger{
+    display: none;
+}
+
+#symbol {
+    margin-left: 8%;
+}
+#kk img{
+     image-resolution: 2016px;
+ }
+ 
+ .main_container{
+    
+    display: flex;
+    width: 100%;
+    height: 300px;
+    color: white;
+    background-color: black;
+    justify-content: space-around;
+}
+
+/* footer contact us */
+
+
+.Contact_same{
+    
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    }
+#Contact_same{
+    margin-top: 20px;
+}
+#contact_sm img{
+    margin-right: 10px;
+    
+
+}
+.Contact_same a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* logo_mid div */
+.logo_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.logo_div img{
+    width: 80px;
+    height: 60px;
+
+}
+.logo_div p{
+    padding: 20px;
+
+}
+
+/* quick links section */
+.footer_menu a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    padding: 5px;
+}
+.footer_menu{
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: center;
+}
+#same_top_margin{
+    margin-top: 20px;
+    padding: 25px;
+}
+.span{
+    text-decoration: none;
+    border-bottom: 1px solid red;
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+.last_matter{
+    height: 50px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Kalam', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+@media screen and (min-width:320px) and (max-width:538px){
+    #map iframe{
+        height: 80px;
+        width: 60px;
+    }
+    #div button{
+        font-size: 10px;
+        
+    }
+    #opt{
+     display: none;
+
+
+
+    }
+
+    #mm a button{
+        width: 100px;
+    }
+   #mm textarea{
+    width: 100px;
+    height: 30px;
+   }
+   #same_top_margin p{
+    font-size: x-small;
+   }
+   .footer_menu a{
+    font-size: x-small;
+    padding-right: 150px;
+   }
+   .footer_menu .head11{
+    font-size: x-small;
+    padding-right: 150px;
+    width: 10%;
+
+   }
+   #same_top_margin .head11{
+    font-size: x-small;
+    padding-left: 60px;
+
+   }
+   .Contact_same a{
+    font-size: x-small;
+   }
+   .Contact_same img{
+    font-size: x-small;
+   }
+ }
+ @media only screen and (min-device-width : 768px) and (max-device-width : 4px){
+    body {
+        background: url('../img/bg.jpg') no-repeat center fixed;
+        margin: auto;
+        position: relative;
+        min-height: 100vh;
+        overflow: hidden;
+        color: white;
+        line-height: 1.6;
+        letter-spacing: 0.03em;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        font-variant: normal;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        max-width: 960px;
+        margin: 0 auto;
+        z-index: 9999;
+        }
+
+        #div button{
+            font-size: 10px;  
+        }
+        #opt{
+         display: none;
+        }
+        #nn a button{
+            width: 100px;
+        }
+       #mm textarea{
+        width: 100px;
+        height: 30px;
+       }
+       #mm input[type="text"]{
+        width: 250px;
+        height: 30px;
+        }
+ }
+  @media screen and (min-width:538) and (max-width:1440px){
+    #hamburger .bar{
+        display: none;
+    }
+
+    
+  }
+
+
+
